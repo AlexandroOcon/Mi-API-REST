@@ -34,7 +34,7 @@ Despues nos daran a seleccionar varias opciones entre las cuales son si quieres 
 
 ## Documentación detallada
 
-Para obtener mas informacion entren a mi src/api/README.md para mas informacion.
+Para obtener mas informacion entren a mi src/api/README.md donde tengo un pequeño tutorial.
 
 ## Enlaces externos
 
