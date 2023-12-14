@@ -11,48 +11,36 @@ A continuación, se detallan los recursos disponibles y las acciones CRUD asocia
 
 | Recurso                        | Descripción                                            |
 | ------------------------------ | ------------------------------------------------------ |
-| **GET /posts**                 | Recupera la lista de todos los posts disponibles.      |
-| **GET /posts/{id}**            | Obtiene información detallada sobre un post específico.|
-| **GET /posts/findOne**         | Encuentra un solo post basado en criterios específicos.|
-| **POST /posts**                | Crea un nuevo post.                                    |
-| **PUT /posts/{id}**            | Modifica totalmente un post existente.                 |
-| **PATCH /posts/{id}**          | Modifica parcialmente un post existente.               |
-| **DELETE /posts/{id}**         | Elimina (soft delete) un post específico.              |
-| **GET /usuarios**              | Recupera la lista de todos los usuarios disponibles.   |
-| **GET /usuarios/{id}**         | Obtiene información detallada sobre un usuario específico.|
-| **GET /usuarios/findOne**      | Encuentra un solo usuario basado en criterios específicos.|
-| **POST /usuarios**             | Crea un nuevo usuario.                                 |
-| **PUT /usuarios/{id}**         | Modifica totalmente un usuario existente.              |
-| **PATCH /usuarios/{id}**       | Modifica parcialmente un usuario existente.            |
-| **DELETE /usuarios/{id}**      | Elimina (soft delete) un usuario específico.           |
-| **GET /actividades**           | Recupera la lista de todas las actividades disponibles.|
-| **GET /actividades/{id}**      | Obtiene información detallada sobre una actividad específica.|
-| **GET /actividades/findOne**   | Encuentra una sola actividad basada en criterios específicos.|
-| **POST /actividades**          | Crea una nueva actividad.                              |
-| **PUT /actividades/{id}**      | Modifica totalmente una actividad existente.          |
-| **PATCH /actividades/{id}**    | Modifica parcialmente una actividad existente.        |
-| **DELETE /actividades/{id}**   | Elimina (soft delete) una actividad específica.        |
-| **GET /editoriales**           | Recupera la lista de todas las editoriales disponibles.|
-| **GET /editoriales/{id}**      | Obtiene información detallada sobre una editorial específica.|
-| **GET /editoriales/findOne**   | Encuentra una sola editorial basada en criterios específicos.|
-| **POST /editoriales**          | Crea una nueva editorial.                              |
-| **PUT /editoriales/{id}**      | Modifica totalmente una editorial existente.          |
-| **PATCH /editoriales/{id}**    | Modifica parcialmente una editorial existente.        |
-| **DELETE /editoriales/{id}**   | Elimina (soft delete) una editorial específica.        |
-| **GET /libros**                | Recupera la lista de todos los libros disponibles.     |
-| **GET /libros/{id}**           | Obtiene información detallada sobre un libro específico.|
-| **GET /libros/findOne**        | Encuentra un solo libro basado en criterios específicos.|
-| **POST /libros**               | Crea un nuevo libro.                                   |
-| **PUT /libros/{id}**           | Modifica totalmente un libro existente.               |
-| **PATCH /libros/{id}**         | Modifica parcialmente un libro existente.             |
-| **DELETE /libros/{id}**        | Elimina (soft delete) un libro específico.            |
-| **GET /inventario**            | Recupera la lista de todos los elementos en inventario.|
-| **GET /inventario/{id}**       | Obtiene información detallada sobre un elemento en inventario específico.|
-| **GET /inventario/findOne**    | Encuentra un solo elemento en inventario basado en criterios específicos.|
-| **POST /inventario**           | Crea un nuevo elemento en inventario.                 |
-| **PUT /inventario/{id}**       | Modifica totalmente un elemento en inventario existente.|
-| **PATCH /inventario/{id}**     | Modifica parcialmente un elemento en inventario existente.|
-| **DELETE /inventario/{id}**    | Elimina (soft delete) un elemento en inventario específico.|
+| **GET /api/usuarios**              | Recupera la lista de todos los usuarios disponibles.   |
+| **GET /api/usuarios/{id}**         | Obtiene información detallada sobre un usuario específico.|
+| **GET /api/usuarios/findOne**      | Encuentra un solo usuario basado en criterios específicos.|
+| **POST /api/usuarios**             | Crea un nuevo usuario.                                 |
+| **PUT /api/usuarios/{id}**         | Modifica totalmente un usuario existente.              |
+| **DELETE /api/usuarios/{id}**      | Elimina (soft delete) un usuario específico.           |
+| **GET /api/actividades**           | Recupera la lista de todas las actividades disponibles.|
+| **GET /api/actividades/{id}**      | Obtiene información detallada sobre una actividad específica.|
+| **GET /api/actividades/findOne**   | Encuentra una sola actividad basada en criterios específicos.|
+| **POST /api/actividades**          | Crea una nueva actividad.                              |
+| **PUT /api/actividades/{id}**      | Modifica totalmente una actividad existente.          |
+| **DELETE /api/actividades/{id}**   | Elimina (soft delete) una actividad específica.        |
+| **GET /api/editoriales**           | Recupera la lista de todas las editoriales disponibles.|
+| **GET /api/editoriales/{id}**      | Obtiene información detallada sobre una editorial específica.|
+| **GET /api/editoriales/findOne**   | Encuentra una sola editorial basada en criterios específicos.|
+| **POST /api/editoriales**          | Crea una nueva editorial.                              |
+| **PUT /api/editoriales/{id}**      | Modifica totalmente una editorial existente.          |
+| **DELETE /api/editoriales/{id}**   | Elimina (soft delete) una editorial específica.        |
+| **GET /api/libros**                | Recupera la lista de todos los libros disponibles.     |
+| **GET /api/libros/{id}**           | Obtiene información detallada sobre un libro específico.|
+| **GET /api/libros/findOne**        | Encuentra un solo libro basado en criterios específicos.|
+| **POST /api/libros**               | Crea un nuevo libro.                                   |
+| **PUT /api/libros/{id}**           | Modifica totalmente un libro existente.               |
+| **DELETE /api/libros/{id}**        | Elimina (soft delete) un libro específico.            |
+| **GET /api/inventario**            | Recupera la lista de todos los elementos en inventario.|
+| **GET /api/inventario/{id}**       | Obtiene información detallada sobre un elemento en inventario específico.|
+| **GET /api/inventario/findOne**    | Encuentra un solo elemento en inventario basado en criterios específicos.|
+| **POST /api/inventario**           | Crea un nuevo elemento en inventario.                 |
+| **PUT /api/inventario/{id}**       | Modifica totalmente un elemento en inventario existente.|
+| **DELETE /api/inventario/{id}**    | Elimina (soft delete) un elemento en inventario específico.|
 
 ### Instalación
 

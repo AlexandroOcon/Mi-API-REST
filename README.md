@@ -34,7 +34,7 @@ Despues nos daran a seleccionar varias opciones entre las cuales son si quieres 
 
 ## Documentación detallada
 
-Para obtener mas informacion entren a src/api/README.md donde tengo un poco mas de informacion.
+Para obtener mas informacion entren a mi documento pdf.
 
 ## Enlaces externos
 

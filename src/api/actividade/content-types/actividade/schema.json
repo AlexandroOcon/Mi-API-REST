@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "actividades",
+  "info": {
+    "singularName": "actividade",
+    "pluralName": "actividades",
+    "displayName": "Actividades",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "blocks"
+    }
+  }
+}

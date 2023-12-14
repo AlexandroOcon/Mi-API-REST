@@ -1,0 +1,30 @@
+# Endpoint: `GET /api/editoriales`
+
+Permite recuperar la lista de todas las editoriales disponibles.
+
+## Ejemplo de Solicitud
+```http
+GET /api/editoriales
+
+Respuesta Exitosa (Código 200 OK)
+[
+  {
+    "id": 1,
+    "nombre": "Enrique",
+    "descripcion": "Buena editorial"
+  },
+  {
+    "id": 2,
+    "nombre": "Editorial 2",
+    "descripcion": "Descripción de la Editorial 2"
+  }
+]
+
+Respuestas de Errores Posibles
+
+Código 500 Internal Server Error:
+{
+  "errno": 500,
+  "error": "internal_error",
+  "error_description": "Ocurrió un problema al recuperar la lista de editoriales o al obtener información detallada de la editorial."
+}
