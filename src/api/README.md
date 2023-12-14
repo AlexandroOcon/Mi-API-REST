@@ -2,11 +2,11 @@
 
 ## Descripción
 
-Este proyecto representa una API REST CRUD básica creada con Strapi, Node.js y XAMPP. 
+Este proyecto representa una API REST básica creada con Strapi, Node.js y XAMPP. 
 La API proporciona operaciones básicas en el recurso "posts".
 A continuación, se detallan los recursos disponibles y las acciones CRUD asociadas.
 
-## Recursos y Acciones CRUD
+## Recursos y Acciones
 
 
 | Recurso                        | Descripción                                            |
